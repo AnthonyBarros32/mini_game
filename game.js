@@ -16,27 +16,27 @@ const closeBtn = document.getElementById('closeBtn');
 const messages = {
     5: {
         title: "💌 Primeras 5 capturas del Amor de Mi Vida 💌",
-        text: "Mi chiquita hermosa, cada día a tu lado es un regalo. Gracias por estos 5 meses llenos de amor 💖",
+        text: "💌 💌 Mi chiquita hermosa, hoy celebramos 5 meses juntos y atraparte en este juego me hace sonreír recordando cada momento a tu lado. Cada día contigo es un regalo que atesoro en mi corazón. Eres mi alegría, mi ternura y mi razón para sonreír siempre 😘.",
         image: "recuerdo1.jpg"
     },
     10: {
         title: "💌 10 capturas de mi vidita 💌",
-        text: "Morcito, eres mi alegría y mi fuerza. Cada corazón atrapado es un abrazo mío para ti 💕",
+        text: "💌 Mi amor, en estos 5 meses he visto tu pasión y talento en todo lo que haces, especialmente en el arte de los tatuajes. Me inspiras con tu dedicación y profesionalismo, y cada día me siento más orgulloso de ti y de la mujer increíble que eres 💖.",
         image: "recuerdo2.jpg"
     },
     15: {
         title: "💌 15 capturas de mi Winnie Pooh 💌",
-        text: "Mi Winnie Pooh, tu amor hace que todo valga la pena. 15 corazones reflejan lo feliz que soy a tu lado 💖",
+        text: "💌 Mi Winnie Pooh, celebrar 5 meses contigo me hace sentir muy feliz y agradecido por cada momento. Cada vez que te “atrapo” en este juego siento que te abrazo de verdad, y tu dulzura y alegría hacen que todo sea más hermoso 😍.",
         image: "recuerdo3.jpg"
     },
     20: {
         title: "💌 20 capturas de mi chiquita hermosa 💌",
-        text: "Mi amor, gracias por ser la mamá increíble y mujer fuerte que eres. Cada corazón me hace amarte más ✨",
+        text: "💌 Mi vida, estos 5 meses a tu lado me han enseñado lo maravilloso que es compartir la vida contigo. Me enamora ver cómo cuidas y amas a tus hijitos, con tanta paciencia y ternura. Eres una mamá increíble y una mujer llena de amor ✨.",
         image: "recuerdo4.jpg"
     },
     25: {
         title: "💌 25 capturas de mi amorcito 💌",
-        text: "Mi chiquita hermosa, llegamos a 25 corazones ❤️. Gracias por estos 5 meses maravillosos. Te adoro 😘",
+        text: "💌 Mi morcito, estos 5 meses contigo han sido los más hermosos de mi vida. Gracias por ser mi chiquita hermosa, mi Winnie Pooh, mi vida entera. Tu amor, tu ternura y tu dedicación en todo lo que haces me inspiran cada día. Te adoro con todo mi corazón y quiero celebrar muchos más meses a tu lado ❤️.",
         image: "recuerdo5.jpg"
     }
 };
