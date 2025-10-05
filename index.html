@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>💖 Feliz 5 Meses, Mi Amor 💖</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>💖 Feliz 5 Meses, Mi Amor 💖</h1>
+<div id="scoreDisplay">Corazones capturados: 0</div>
+
+<div id="gameArea">
+    <div id="player"></div>
+</div>
+
+<div class="controls">
+    <button onclick="move('up')">⬆️</button>
+    <button onclick="move('left')">⬅️</button>
+    <button onclick="move('down')">⬇️</button>
+    <button onclick="move('right')">➡️</button>
+</div>
+
+<!-- Popup para cartas -->
+<div class="modal" id="popup">
+    <div class="modal-content">
+        <span id="closeBtn">&times;</span>
+        <h2 id="popupTitle"></h2>
+        <p id="popupText"></p>
+        <img id="popupImage" src="" alt="Foto de nosotros">
+    </div>
+</div>
+
+<script src="game.js"></script>
+</body>
+</html>
