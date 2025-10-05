@@ -1,6 +1,9 @@
 const gameArea = document.getElementById('gameArea');
 const player = document.getElementById('player');
 const scoreDisplay = document.getElementById('scoreDisplay');
+const music = new Audio('para tu amor.mp3');
+music.loop = true; // hace que se repita infinitamente
+let musicStarted = false; // para que no se reinicie al presionar varias veces
 
 let score = 0;
 let playerPos = { top: 225, left: 225 };
@@ -43,11 +46,18 @@ const messages = {
 
 // Función para mover jugador
 function move(direction) {
+     // Inicia la música solo la primera vez
+    if (!musicStarted) {
+        music.play();
+        musicStarted = true;
+    }
+
     const step = 20;
     if (direction === 'up' && playerPos.top > 0) playerPos.top -= step;
     if (direction === 'down' && playerPos.top < gameArea.clientHeight - 50) playerPos.top += step;
     if (direction === 'left' && playerPos.left > 0) playerPos.left -= step;
     if (direction === 'right' && playerPos.left < gameArea.clientWidth - 50) playerPos.left += step;
+
     player.style.top = playerPos.top + 'px';
     player.style.left = playerPos.left + 'px';
 
