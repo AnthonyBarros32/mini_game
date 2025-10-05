@@ -88,9 +88,17 @@ function checkCollision() {
             scoreDisplay.textContent = `Corazones capturados: ${score}`;
             showCard(score);
             createHeart();
+
+            // Si llegamos al último mensaje, reiniciar después de 8 segundos
+            if (score >= 25) {
+                setTimeout(() => {
+                    resetGame();
+                }, 8000); // 8 segundos para que lea el mensaje final
+            }
         }
     });
 }
+
 
 // Mostrar popup
 function showCard(score) {
@@ -115,3 +123,16 @@ window.onclick = function(event) {
 
 // Crear primeros 3 corazones
 for (let i = 0; i < 3; i++) createHeart();
+
+function resetGame() {
+    // Reinicia el marcador
+    score = 0;
+    scoreDisplay.textContent = `Corazones capturados: ${score}`;
+    
+    // Elimina todas las fotos existentes
+    const hearts = document.querySelectorAll('.heart');
+    hearts.forEach(h => h.remove());
+
+    // Crea nuevamente los primeros 3 corazones
+    for (let i = 0; i < 3; i++) createHeart();
+}
