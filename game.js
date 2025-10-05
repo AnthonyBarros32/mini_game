@@ -1,7 +1,7 @@
 const gameArea = document.getElementById('gameArea');
 const player = document.getElementById('player');
 const scoreDisplay = document.getElementById('scoreDisplay');
-const music = new Audio('para tu amor.mp3');
+const music = new Audio('que mas puedo pedir.mp3');
 music.loop = true; // hace que se repita infinitamente
 let musicStarted = false; // para que no se reinicie al presionar varias veces
 
