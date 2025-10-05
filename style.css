@@ -30,7 +30,7 @@ h1 {
 #player {
     position: absolute;
     width: 50px;
-    height: 50px;
+    height: 80px;
     background-image: url('tony.png'); /* tu foto */
     background-size: cover;
     border-radius: 50%;
@@ -41,8 +41,8 @@ h1 {
 .heart {
     position: absolute;
     width: 40px;
-    height: 40px;
-    background-image: url('but2.png');
+    height: 80px;
+    background-image: url('morcito1.png');
     background-size: cover;
     transition: transform 0.2s;
 }
